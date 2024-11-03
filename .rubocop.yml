@@ -25,7 +25,7 @@ Layout/LineLength:
 
 # This is too aggressive with our use of Seattle.rb style lack of parens on method calls
 # E.g., return redirect_to [:photos]
-# Rubocop thinks that `redirect_to` is a collection and `:rubocop` is a hash key
+# Rubocop thinks that `redirect_to` is a collection and `:photos` is a hash key
 Layout/SpaceBeforeBrackets:
   Enabled: false
 
