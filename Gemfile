@@ -37,7 +37,8 @@ gem 'solid_queue'
 
 # images
 gem 'down' # downloading
-gem 'http'
+gem 'flickr' # Flickr API
+gem 'http' # HTTP requests
 gem 'image_processing' # variants
 
 group :development, :test do
