@@ -65,6 +65,3 @@ Style/FrozenStringLiteralComment:
 
 Style/MethodDefParentheses:
   EnforcedStyle: require_no_parentheses
-
-Style/RedundantFetchBlock:
-  Enabled: false
