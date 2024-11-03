@@ -71,7 +71,3 @@ Style/RedundantFetchBlock:
 
 Style/OpenStructUse:
   Enabled: false
-
-# For now we disable this, since explicit hash value sounds better to use
-Style/HashSyntax:
-  Enabled: false
