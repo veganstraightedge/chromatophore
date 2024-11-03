@@ -55,12 +55,12 @@ group :development, :test do
   gem 'fasterer', require: false # performance
 
   # rubocop, codestyle guide and linting
-  gem 'rubocop', require: false
-  gem 'rubocop-capybara', require: false
+  gem 'rubocop',             require: false
+  gem 'rubocop-capybara',    require: false
   gem 'rubocop-factory_bot', require: false
   gem 'rubocop-performance', require: false
-  gem 'rubocop-rails', require: false
-  gem 'rubocop-rspec', require: false
+  gem 'rubocop-rails',       require: false
+  gem 'rubocop-rspec',       require: false
   gem 'rubocop-rspec_rails', require: false
 end
 
