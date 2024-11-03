@@ -26,11 +26,11 @@ gem "bcrypt"
 # caching
 gem "solid_cache"
 
-# job queue using ActiveJob
+# background jobs
 gem "solid_queue"
 
-# Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
-# gem "image_processing"
+# image variants
+gem "image_processing"
 
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
