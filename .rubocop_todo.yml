@@ -13,12 +13,6 @@
 # RedundantKeywordRestArgumentNames: kwargs, options, opts
 # RedundantBlockArgumentNames: blk, block, proc
 
-# Offense count: 2
-# This cop supports safe autocorrection (--autocorrect).
-Style/IfUnlessModifier:
-  Exclude:
-    - "bin/bundle"
-
 # Offense count: 1
 # This cop supports safe autocorrection (--autocorrect).
 # Configuration parameters: EnforcedStyle.
