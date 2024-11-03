@@ -14,11 +14,15 @@ gem 'puma'
 gem 'thruster', require: false
 
 # assets
-gem 'bootstrap'
 gem 'importmap-rails'
 gem 'propshaft'
 gem 'stimulus-rails'
 gem 'turbo-rails'
+
+# UI framework getbootstrap.com
+gem 'bootstrap'
+gem 'bootstrap-icons-helper'
+gem 'sassc-rails'
 
 # JSON views
 gem 'jbuilder'
