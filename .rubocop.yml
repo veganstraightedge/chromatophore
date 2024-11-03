@@ -35,8 +35,7 @@ Metrics/AbcSize:
 Metrics/BlockLength:
   Max: 99
   Exclude:
-    - "config/routes.rb"
-    - "db/queue_schema.rb"
+    - config/routes.rb
 
 Metrics/ClassLength:
   Max: 135
@@ -47,7 +46,7 @@ Metrics/CyclomaticComplexity:
 Metrics/MethodLength:
   Max: 31
   Exclude:
-    - "db/migrate/*"
+    - db/migrate/*
 
 Metrics/ParameterLists:
   Max: 6
@@ -66,29 +65,7 @@ Rails/EnvironmentVariableAccess:
 # Using `puts` is allowed in these files
 Rails/Output:
   Exclude:
-    - "app/lib/code_archiver.rb"
-    - "db/seeds.rb"
-
-Rails/TimeZone:
-  Exclude:
-    - "script/*"
-
-RSpec/DescribeClass:
-  Exclude:
-    - "spec/system/*"
-
-RSpec/ExampleLength:
-  Max: 14
-  Exclude:
-    - "spec/system/*"
-
-RSpec/MessageSpies:
-  Enabled: false
-
-RSpec/MultipleExpectations:
-  Max: 5
-  Exclude:
-    - "spec/system/*"
+    - db/seeds.rb
 
 Style/AsciiComments:
   Enabled: false
@@ -102,10 +79,6 @@ Style/FrozenStringLiteralComment:
 Style/MethodDefParentheses:
   EnforcedStyle: require_no_parentheses
 
-Style/MixinUsage:
-  Exclude:
-    - "script/*"
-
 Style/RedundantFetchBlock:
   Enabled: false
 
@@ -118,16 +91,4 @@ Style/HashSyntax:
 
 # For now we disable this, since I prefer explicit block name
 Naming/BlockForwarding:
-  Enabled: false
-
-# We don't translate admin flash message for now
-Rails/I18nLocaleTexts:
-  Enabled: false
-
-# Remove once we won,t have commented tests
-RSpec/NoExpectationExample:
-  Enabled: false
-
-# If we don,t care about explicit type, then remove this and fix errors
-RSpecRails/InferredSpecType:
   Enabled: false
