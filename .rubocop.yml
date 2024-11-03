@@ -45,9 +45,6 @@ Metrics/MethodLength:
   Exclude:
     - db/migrate/*
 
-Metrics/ParameterLists:
-  Max: 6
-
 Naming/VariableNumber:
   EnforcedStyle: snake_case
 
