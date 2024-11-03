@@ -62,11 +62,6 @@ Naming/VariableNumber:
 Rails/EnvironmentVariableAccess:
   Enabled: false
 
-# Using `puts` is allowed in these files
-Rails/Output:
-  Exclude:
-    - db/seeds.rb
-
 Style/AsciiComments:
   Enabled: false
 
