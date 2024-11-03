@@ -6,25 +6,17 @@
 # Note that changes in the inspected code, or installation of new
 # versions of RuboCop, may require this file to be generated again.
 
-# Offense count: 8
-# This cop supports safe autocorrection (--autocorrect).
-# Configuration parameters: TreatCommentsAsGroupSeparators, ConsiderPunctuation, Include.
-# Include: **/*.gemfile, **/Gemfile, **/gems.rb
-Bundler/OrderedGems:
-  Exclude:
-    - 'Gemfile'
-
 # Offense count: 6
 # This cop supports safe autocorrection (--autocorrect).
 Layout/EmptyLineAfterGuardClause:
   Exclude:
-    - 'bin/bundle'
+    - "bin/bundle"
 
 # Offense count: 1
 # This cop supports safe autocorrection (--autocorrect).
 Layout/EmptyLines:
   Exclude:
-    - 'config/environments/production.rb'
+    - "config/environments/production.rb"
 
 # Offense count: 60
 # This cop supports safe autocorrection (--autocorrect).
@@ -33,35 +25,35 @@ Layout/EmptyLines:
 # SupportedStylesForEmptyBrackets: space, no_space
 Layout/SpaceInsideArrayLiteralBrackets:
   Exclude:
-    - 'config/environments/production.rb'
-    - 'db/queue_schema.rb'
-    - 'test/application_system_test_case.rb'
+    - "config/environments/production.rb"
+    - "db/queue_schema.rb"
+    - "test/application_system_test_case.rb"
 
 # Offense count: 2
 # This cop supports safe autocorrection (--autocorrect).
 Layout/SpaceInsidePercentLiteralDelimiters:
   Exclude:
-    - 'Gemfile'
+    - "Gemfile"
 
 # Offense count: 1
 # Configuration parameters: CountComments, Max, CountAsOne, AllowedMethods, AllowedPatterns, inherit_mode.
 # AllowedMethods: refine
 Metrics/BlockLength:
   Exclude:
-    - 'db/queue_schema.rb'
+    - "db/queue_schema.rb"
 
 # Offense count: 2
 # This cop supports safe autocorrection (--autocorrect).
 Performance/ConstantRegexp:
   Exclude:
-    - 'bin/bundle'
+    - "bin/bundle"
 
 # Offense count: 1
 # This cop supports safe autocorrection (--autocorrect).
 # Configuration parameters: NotNilAndNotEmpty, NotBlank, UnlessBlank.
 Rails/Present:
   Exclude:
-    - 'bin/bundle'
+    - "bin/bundle"
 
 # Offense count: 2
 # This cop supports safe autocorrection (--autocorrect).
@@ -71,27 +63,27 @@ Rails/Present:
 # RedundantBlockArgumentNames: blk, block, proc
 Style/ArgumentsForwarding:
   Exclude:
-    - 'bin/setup'
+    - "bin/setup"
 
 # Offense count: 2
 # This cop supports safe autocorrection (--autocorrect).
 # Configuration parameters: AllowedVars.
 Style/FetchEnvVar:
   Exclude:
-    - 'bin/bundle'
+    - "bin/bundle"
 
 # Offense count: 2
 # This cop supports unsafe autocorrection (--autocorrect-all).
 Style/GlobalStdStream:
   Exclude:
-    - 'bin/setup'
-    - 'config/environments/production.rb'
+    - "bin/setup"
+    - "config/environments/production.rb"
 
 # Offense count: 2
 # This cop supports safe autocorrection (--autocorrect).
 Style/IfUnlessModifier:
   Exclude:
-    - 'bin/bundle'
+    - "bin/bundle"
 
 # Offense count: 1
 # This cop supports safe autocorrection (--autocorrect).
@@ -99,7 +91,7 @@ Style/IfUnlessModifier:
 # SupportedStyles: require_parentheses, require_no_parentheses, require_no_parentheses_except_multiline
 Style/MethodDefParentheses:
   Exclude:
-    - 'bin/bundle'
+    - "bin/bundle"
 
 # Offense count: 2
 # This cop supports safe autocorrection (--autocorrect).
@@ -111,7 +103,7 @@ Style/NumericLiterals:
 # This cop supports safe autocorrection (--autocorrect).
 Style/PerlBackrefs:
   Exclude:
-    - 'bin/bundle'
+    - "bin/bundle"
 
 # Offense count: 1
 # This cop supports unsafe autocorrection (--autocorrect-all).

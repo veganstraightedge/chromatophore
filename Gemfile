@@ -3,8 +3,8 @@ source "https://rubygems.org"
 ruby file: ".ruby-version"
 
 # app server
-gem "rails", "~> 8.0.0.rc2"
 gem "bootsnap", require: false
+gem "rails", "~> 8.0.0.rc2"
 
 # database
 gem "sqlite3"
@@ -14,11 +14,11 @@ gem "puma"
 gem "thruster", require: false
 
 # assets
-gem "propshaft"
-gem "importmap-rails"
-gem "turbo-rails"
-gem "stimulus-rails"
 gem "bootstrap"
+gem "importmap-rails"
+gem "propshaft"
+gem "stimulus-rails"
+gem "turbo-rails"
 
 # JSON views
 gem "jbuilder"
@@ -36,21 +36,21 @@ gem "solid_cache"
 gem "solid_queue"
 
 # images
-gem "image_processing" # variants
 gem "down" # downloading
 gem "http"
+gem "image_processing" # variants
 
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
   gem "dotenv-rails"
-  gem "overcommit"
-  gem "squasher"
-  gem "rspec-rails"
   gem "factory_bot_rails"
+  gem "overcommit"
+  gem "rspec-rails"
+  gem "squasher"
 
   # linters, formatters
-  gem "erb_lint", require: false # views
   gem "brakeman", require: false # security
+  gem "erb_lint", require: false # views
   gem "fasterer", require: false # performance
 
   # rubocop, codestyle guide and linting
