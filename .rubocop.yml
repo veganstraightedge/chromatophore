@@ -12,6 +12,7 @@ AllCops:
     - db/schema.rb
     - db/cache_schema.rb
     - db/cable_schema.rb
+    - db/queue_schema.rb
     - vendor/**/*
     - bin/*
 
@@ -30,7 +31,6 @@ Layout/SpaceBeforeBrackets:
   Enabled: false
 
 Metrics/BlockLength:
-  Max: 99
   Exclude:
     - config/routes.rb
 
