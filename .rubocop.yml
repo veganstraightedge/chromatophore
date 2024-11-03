@@ -35,6 +35,7 @@ Metrics/BlockLength:
   Max: 99
   Exclude:
     - "config/routes.rb"
+    - "db/queue_schema.rb"
 
 Metrics/ClassLength:
   Max: 135
