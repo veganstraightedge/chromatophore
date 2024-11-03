@@ -18,8 +18,13 @@ gem "propshaft"
 gem "importmap-rails"
 gem "turbo-rails"
 gem "stimulus-rails"
-gem "jbuilder"
 gem "bootstrap"
+
+# JSON views
+gem "jbuilder"
+
+# pagination
+gem "kaminari"
 
 # authentication
 gem "bcrypt"
@@ -30,17 +35,32 @@ gem "solid_cache"
 # background jobs
 gem "solid_queue"
 
-# image variants
-gem "image_processing"
+# images
+gem "image_processing" # variants
+gem "down" # downloading
+gem "http"
 
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
+  gem "dotenv-rails"
+  gem "overcommit"
+  gem "squasher"
+  gem "rspec-rails"
+  gem "factory_bot_rails"
 
-  # linter, security
-  gem "brakeman", require: false
+  # linters, formatters
+  gem "erb_lint", require: false # views
+  gem "brakeman", require: false # security
+  gem "fasterer", require: false # performance
 
-  # linter, rubocop
-  gem "rubocop-rails-omakase", require: false
+  # rubocop, codestyle guide and linting
+  gem "rubocop", require: false
+  gem "rubocop-capybara", require: false
+  gem "rubocop-factory_bot", require: false
+  gem "rubocop-performance", require: false
+  gem "rubocop-rails", require: false
+  gem "rubocop-rspec", require: false
+  gem "rubocop-rspec_rails", require: false
 end
 
 group :test do
@@ -49,4 +69,4 @@ group :test do
 end
 
 # windows dev
-gem "tzinfo-data", platforms: %i[ windows jruby ]
+gem "tzinfo-data", platforms: %i[windows jruby]
