@@ -41,7 +41,7 @@ gem "http"
 gem "image_processing" # variants
 
 group :development, :test do
-  gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
+  gem "debug", platforms: %i[mri windows], require: "debug/prelude"
   gem "dotenv-rails"
   gem "factory_bot_rails"
   gem "overcommit"
