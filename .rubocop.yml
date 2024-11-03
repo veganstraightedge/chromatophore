@@ -40,11 +40,6 @@ Metrics/ClassLength:
 Metrics/CyclomaticComplexity:
   Max: 13
 
-Metrics/MethodLength:
-  Max: 31
-  Exclude:
-    - db/migrate/*
-
 Naming/VariableNumber:
   EnforcedStyle: snake_case
 
