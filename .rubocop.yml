@@ -34,9 +34,6 @@ Metrics/BlockLength:
   Exclude:
     - config/routes.rb
 
-Metrics/ClassLength:
-  Max: 135
-
 Naming/VariableNumber:
   EnforcedStyle: snake_case
 
