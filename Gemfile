@@ -4,7 +4,7 @@ ruby file: '.ruby-version'
 
 # app server
 gem 'bootsnap', require: false
-gem 'rails', '~> 8.0.0.rc2'
+gem 'rails', '~> 8.0.0'
 
 # database
 gem 'sqlite3'
